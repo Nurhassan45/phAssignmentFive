@@ -1,0 +1,140 @@
+.godDiv{
+    padding:0 100px ;
+}
+body{
+    font-family: Poppins;
+}
+.flex{
+    display: flex;
+}
+.logoDiv,.navcls{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navcls{
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 20px;
+}
+.main-section{
+    border-radius: 30px;
+    background-color: #ececec;
+    margin-top: 30px;
+}
+.logoImg{
+    height: 20px;
+    width: 20px;
+}
+.leftLogoValue{
+    align-items: center;
+    gap: 10px;
+}
+.laftnavDiv{
+    gap: 20px;
+}
+.btnColor{
+    width: 50px;
+    height: 50px;
+}
+.leftHeader,.RightHedar{
+    width:28%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    border-radius: 30px;
+    gap: 10px;
+}
+.RightHedar{
+    padding: 0px !important;
+}
+.midHeader{
+    width: 40%;
+    border-radius: 30px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    background: linear-gradient(130.70deg, rgb(55, 82, 253) 0.419%,rgb(108, 127, 250) 52.66%,rgb(155, 168, 248) 99.733%);
+    background-color: #ffff;
+}
+.godHeader{
+    /* width: 70%; */
+    gap:30px;
+    padding: 20px;
+}
+.cardBtn{
+    color: rgb(255, 255, 255);
+    width: 150px;
+font-family: Poppins;
+padding: 1px;
+font-size: 16px;
+font-weight: 400;
+
+text-align: center;
+border-radius: 8px;
+background: rgb(55, 82, 253);
+}
+/* card-section */
+.bg-p{
+    background-color: #ececec;
+    border-radius: 5px;
+    padding: 5px;
+}
+.inline{
+    display: inline;
+}
+.card-footer{
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffff;
+}
+.Cards-Section{
+   
+    padding-left: 2%;
+    gap: 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.leftMainDev{
+    width: 70%;
+}
+hr,.border{
+    border: 2px dotted rgb(55, 82, 253);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 20px;
+}
+
+/* Right-Section */
+.rightDiv{
+    padding: 10px;
+    width: 28%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #fff;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: #cac1c1a8; */
+
+}
+.rightDiv h1,button{
+    text-align: center;
+    margin: 0 auto;
+}
+#clearHistory{
+    margin: 0 auto !important;
+
+}
+.main-section{
+    gap: 20px;
+    padding: 10px 0px;
+}
