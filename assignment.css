@@ -142,3 +142,7 @@ hr,.border{
     gap: 20px;
     padding: 10px 0px;
 }
+.btnColor,.cardBtn{
+    cursor: pointer;
+    border: none;
+}
