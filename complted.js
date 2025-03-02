@@ -22,6 +22,12 @@ document.getElementById('btn1').addEventListener('click',function(){
   You have Complete The Task  ${header} at ${fulltime}
   `
 addingDiv.appendChild(p);
+let value6 =document.getElementById('6value').innerText
+let convert6=parseInt(value6);
+if(convert6===0)
+{
+  alert('You have complted all task');
+}
 })
 
 
@@ -77,6 +83,12 @@ document.getElementById('btn2').addEventListener('click',function(){
     You have Complete The Task  ${header} at ${fulltime}
     `
   addingDiv.appendChild(p);
+  let value6 =document.getElementById('6value').innerText
+let convert6=parseInt(value6);
+if(convert6===0)
+{
+  alert('You have complted all task');
+}
   })
   //for btn3
 document.getElementById('btn3').addEventListener('click',function(){
@@ -102,6 +114,12 @@ document.getElementById('btn3').addEventListener('click',function(){
     You have Complete The Task  ${header} at ${fulltime}
     `
   addingDiv.appendChild(p);
+  let value6 =document.getElementById('6value').innerText
+let convert6=parseInt(value6);
+if(convert6===0)
+{
+  alert('You have complted all task');
+}
   })
     //for btn4
 document.getElementById('btn4').addEventListener('click',function(){
@@ -127,6 +145,12 @@ document.getElementById('btn4').addEventListener('click',function(){
     You have Complete The Task  ${header} at ${fulltime}
     `
   addingDiv.appendChild(p);
+  let value6 =document.getElementById('6value').innerText
+let convert6=parseInt(value6);
+if(convert6===0)
+{
+  alert('You have complted all task');
+}
   })
 
     //for btn5
@@ -153,6 +177,12 @@ document.getElementById('btn5').addEventListener('click',function(){
     You have Complete The Task  ${header} at ${fulltime}
     `
   addingDiv.appendChild(p);
+  let value6 =document.getElementById('6value').innerText
+let convert6=parseInt(value6);
+if(convert6===0)
+{
+  alert('You have complted all task');
+}
   })
   
 
@@ -180,6 +210,12 @@ document.getElementById('btn6').addEventListener('click',function(){
     You have Complete The Task  ${header} at ${fulltime}
     `
   addingDiv.appendChild(p);
+  let value6 =document.getElementById('6value').innerText
+let convert6=parseInt(value6);
+if(convert6===0)
+{
+  alert('You have complted all task');
+}
   })
 
 
@@ -207,3 +243,4 @@ document.getElementById('midButton').addEventListener('click',function(){
   window.location.href='./blog.html';
 })
 
+//for 6 value
