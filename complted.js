@@ -201,3 +201,9 @@ function diable(id){
     document.getElementById('id').disabled=true;
 
 }
+
+///for backbuttton
+document.getElementById('midButton').addEventListener('click',function(){
+  window.location.href='blog.html';
+})
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <header>
+        <div class="logoDiv flex">
+            <img src="./assets/logo.png" alt="">
+            <h1>Dev <span>Board</span></h1>
+        </div>
+        <button id="backButton">Back to Desk</button>
+    </header>
+
+    <main class="main">
+    <div class="question">
+    <h1>Question-1: What are the different ways to select an element in the DOM?</h1>
+  
+        <li>getElementById(): Selects one element by its id.</li>
+        <li>getElementsByClassName(): Gets all elements with a specified class name.</li>
+        <li> getElementsByTagName(): Returns all elements with a given tag name.</li>
+        <li>querySelector(): Selects the first element that matches a CSS selector.</li>
+        <li>querySelectorAll(): Returns a list of all the elements those matches a CSS selector.</li>
+    </div>
+    <div class="question">
+        <h1> Question-2: What are the differences between innerHTML, innerText, and textContent?</h1>
+        <li>innerHTML: The HTML inside of an element, including tags.</li>
+        <li>innerText: The text content of an element, with respect to rendered styles.</li>
+        <li>textContent: The text content of an element and its descendants, returned as a string.</li>
+    </div>
+
+    <div class="question">
+        <h1>Question-3: What is event delegation in DOM?</h1>
+        <p>Event delegation is adding an event listener to the parent, that fires for the children. This gives better performance, and easy to manage events.</p>
+    </div>
+
+    <div class="question">
+        <h1>Question-4: What do you understand by event bubbling in DOM?</h1>
+        <p>Event Bubbling => When an event occurs on an element, it first runs its handlers, then, if not stopped, it runs the handlers on that element's parents.</p>
+    </div>
+
+    <div class="question">
+        <h1>Question-5: How do you create ,add,and remove element using javascript</h1>
+        <li>Create:documnet.createElement('enter tag name')</li>
+        <li>Add:parentElement.appendchild('enter tag name')</li>
+        <li>Remove:parentElement.removechild('enter tag name')</li>
+     
+    </div>
+    </main>
+    <script src="complted.js"></script>
+    <script>
+        document.getElementById('backButton').addEventListener('click',function(){
+  window.location.href='index.html';
+
+})
+    </script>
+</body>
+</html>
